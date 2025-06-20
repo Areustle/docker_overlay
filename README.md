@@ -11,7 +11,9 @@ mkdir -p lower overlayfs/{upper,work} merged
 
 ## build the image
 
+```
 docker build -t overlaytest .
+```
 
 ## run the container with valid mounts
 
